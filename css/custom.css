@@ -1,0 +1,43 @@
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body
+{
+  font-family: sans-serif;
+
+  background-image: url('https://www.ontocollege.com/wp-content/uploads/2021/01/ACT-Calculator-Policy-1080x675.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 50px;
+}
+.calculator input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.calculator button {
+  width: 20%;
+  padding: 10px;
+  font-size: 18px;
+}
+/* MAIN HEADER */
+.text-center
+{
+ font-weight: 600;
+ letter-spacing: -.5px;
+ color: rgb(25, 19, 19);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>Calculator</title>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <h2 class="text-center p-5"> Welcome to Calculator App </h2>
+      <div class="col-md-6 calculator">
+        <input type="text" id="result" readonly>
+        <button onclick="Append('7');" >7</button>
+        <button onclick="Append('8');" >8</button>
+        <button onclick="Append('9');" >9</button>
+        
+        <button onclick="Append('-');">-</button>
+        <button onclick="Append('4');">4</button>
+        <button onclick="Append('5');">5</button>
+        <button onclick="Append('6');">6</button>
+        <button onclick="Append('+');">+</button>
+
+        <button onclick="Append('1');">1</button>
+        <button onclick="Append('2');">2</button>
+        <button onclick="Append('3');">3</button>
+       
+        <button onclick="Append('*');">*</button>
+        <button onclick="Append('0');">0</button>
+        <button onclick="ClearResult();" >C</button>
+        <button onclick="BackSpace();"> ← </button>
+        <button onclick="Append('/');">/</button>
+        <button onclick="FinalResult();">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/custom.js"> </script>
+</body>
+</html>
+
